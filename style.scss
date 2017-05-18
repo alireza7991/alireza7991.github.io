@@ -17,6 +17,12 @@ html {
   font-size: 100%;
 }
 
+* {
+    unicode-bidi: bidi-override;
+    direction: rtl;
+    text-align: left;
+}
+
 body {
 	background: $white;
   font: 18px/1.4 $helvetica;
